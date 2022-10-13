@@ -1,0 +1,58 @@
+.card-project {
+    width: 18rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: start;
+    text-align: start;
+    padding: 10px 26px 0.8rem 26px;
+    border: 2px solid rgba(100, 180, 230, 0.701);
+    background: white;
+    border-radius: 5%;
+}
+.button-list{
+    display: flex;
+    gap: 1rem;
+}
+
+.card-project > ul {
+    margin-top: 0;
+}
+.card-project-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-project-timeline{
+    font-size: 0.9rem;
+    color: #2fa583;
+}
+.card-project-detail{
+    color: var(--gray);
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.p-button-github{
+    background: rgb(138, 129, 129);
+    background: linear-gradient(180deg, rgb(138, 129, 129) 26.71%,rgb(182, 156, 156) 99.36%);
+    border-radius: 20px;
+    border: 1px solid rgb(36, 31, 31);
+    color: white;
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+}
+.p-button-demo{
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    border-radius: 20px;
+    border: 1px solid rgb(185, 208, 36);
+    color: white;
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+}
+  
+.p-button-github:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid rgb(36, 31, 31);
+    color: rgb(138, 129, 129);
+  }

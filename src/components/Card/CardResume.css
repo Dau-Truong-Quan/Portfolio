@@ -1,0 +1,35 @@
+.card-resume {
+    width: 13rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    text-align: start;
+    border: 2px dashed #04a4a4;
+    padding: 10px 26px 2rem 26px;
+    background: rgba(255, 255, 255, 0.26);
+}
+
+
+.card-resume > ul {
+    margin-top: 0;
+}
+.card-resume-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-resume-timeline{
+    font-size: 0.9rem;
+    color: #2fa583;
+}
+.card-resume-detail{
+    color: var(--gray);
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.card-resume:hover{
+    border: 2px solid rgba(100, 180, 230, 0.701);
+    box-shadow: var(--boxShadow);
+    background: white;
+}

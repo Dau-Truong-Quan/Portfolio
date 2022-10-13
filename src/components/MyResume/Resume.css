@@ -1,0 +1,73 @@
+.resume {
+    padding: 0 17rem 0 17rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    /* scroll */
+    align-items: center;
+    
+  }
+
+  
+  .resume-title > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .resume-title > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+.resume-body {
+  
+    display: flex;
+ 
+    margin-top: 4rem;
+    
+    display: flex;
+    gap: 2rem;
+    position: relative;
+  }
+  .r-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .r-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .blur-resume{
+    position: absolute;
+    background: rgba(100, 180, 230, 0.138);
+    filter: blur(100px);
+    z-index: -9;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .resume-side-title-left{
+    font-size: 1.5rem;
+    transform: translate(-40%, 210%) rotate(-90deg);
+    color: rgba(0, 49, 52, 0.7);
+    position: absolute;
+    top: 27%;
+    left: -15%;
+  }
+  .resume-side-title-right{
+    font-size: 1.5rem;
+    transform: translate(-60%, 195%) rotate(90deg);
+    color: rgba(0, 49, 52, 0.7);
+    position: absolute;
+    top: 27%;
+    right: -40%;
+  }
+  
