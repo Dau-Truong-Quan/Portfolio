@@ -121,3 +121,15 @@
     top: -7rem !important;;
   }
 }
+
+/* Center the boy image in its parent */
+.boy-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* Ensures full height */
+}
+
+.boy-center img {
+  object-fit: contain;
+}
